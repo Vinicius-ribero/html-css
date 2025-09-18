@@ -1,0 +1,10 @@
+@charset "UT-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100;*/
+}
+
+body{
+    background-color: linear-gradient(toeight, #F1D8C9, #F2C3A7);
+}
