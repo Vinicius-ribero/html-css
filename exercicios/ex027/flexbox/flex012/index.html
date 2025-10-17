@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+            border-radius: 20px;
+        }
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+
+        #axA{
+           /* flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 200px; ORDEM DE FLEX */
+
+            flex: 1 0 200px;
+
+        }
+            
+         #axB{
+            /*flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 200px; ORDEM DE FLEX */
+
+            flex: 1 1 150px;
+        }
+
+         #axC{
+            /*flex-grow: 1;
+            flex-shrink: 8;
+            flex-basis: auto; ORDEM DE FLEX */
+
+            flex: 1 8 auto;
+        }
+    
+    </style>
+</head>
+<body>
+        <h1>Conteiner 1</h1>
+    <div class="conteiner">
+        <div class="item" id="axA">A</div>
+        <div class="item" id="axB">B</div>
+        <div class="item" id="axC">C</div>
+        </div>
+
+</body>
+</html>
+</body>
+</html>
