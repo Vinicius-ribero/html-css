@@ -9,13 +9,10 @@
             border: 3px solid blue;
             height: 250px;
             display: grid;
-            grid-template-columns: auto auto auto auto;  /*SEPARA EM TRÊS COLUNAS E MAIS COLUNAS OU MENOS.*/
-            grid-template-rows: auto auto auto auto; /*SEPARA EM LINHAS OU SEJA VERTICALMENTE OU MELHOR DEITADO*/
+            grid-template: repeat(3,auto)/*rows*/ repeat(3, auto );/*columns*/
             gap: 10px;
-            align-items: normal;
-            justify-items: normal;
-            align-content: normal;
-            justify-content: normal;
+            place-items: start center;
+            place-content: space-between end;
             
         }
 
