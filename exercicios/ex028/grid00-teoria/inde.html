@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.conteiner{
+            display: grid;/*CONTEINER DO GRID LAYOUT*/
+            grid-template-columns: auto auto auto;/* FORMATO DE COLUNAS EM AUTO 3 VEZES*/
+            border: 1px solid black; /*BORDAS EM VOLTA DO CONTEINER*/
+            grid-template-rows: 100px 100px 100px; /*ESPAÇAMENTO DO CONTEINER*/
+            grid-gap: 20px; /*ESPAÇAMENTO DENTRO DO CONTEINER ENTRE OS FILHOS (DIV ITEM)*/
+            
+        }
+
+        div.item{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>  
+        <div class="item">G</div>  
+    </div>
+</body>
+</html>
